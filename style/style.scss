@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+.header,
+.footer {
+    background-color: #80a4df;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.wrapper {
+    flex-grow: 1;
+    margin: 100px 0;
+}
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+td {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-self: center;
+}
+
+td img {
+    width: 100%;
+    height: 100%;
+}
